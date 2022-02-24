@@ -1,0 +1,12 @@
+l=[]
+n=int(input())
+for i in range(n):
+    x=int(input())
+    l.append(x)
+c=0
+for i in range (n):
+    if n%l[i]==0:
+        continue
+    else:
+        c=c+1
+print(c)
