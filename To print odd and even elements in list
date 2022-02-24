@@ -1,0 +1,11 @@
+[9:52 pm, 24/02/2022] ✨𝓢𝓻𝓲...✨: x=input()
+l=x.split()
+o=[]
+e=[]
+for i in l:
+    i=int(i)
+    if i%2==0:
+        e.append(i)
+    else:
+        o.append(i)
+print(o,' ',e)
